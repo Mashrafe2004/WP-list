@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+ui li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+nav{
+    margin:auto;
+    text-align: center;
+    font-family: Helvetica Neue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    padding: 22px;
+
+}
+
+nav ui li {
+    display: inline-block;
+
+}
+
+nav ui li a{
+    color: black;
+    padding: 15px 30px;
+    display: block;
+    
+}
+
+nav ui li:hover a{
+    background-color: rgba(0, 0, 0, 0.416);
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+button a{
+    color: black;
+    background-color:rgb(84, 188, 84) ;
+}
+button{
+  
+    border-radius: 30px;
+    background-color: rgb(84, 188, 84);
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    transition: 0.8s;
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.783);
+}
